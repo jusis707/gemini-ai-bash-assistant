@@ -12,7 +12,7 @@
     and
     a will to install some python modules.
 <br>Usage:
-<br> Replace with your actual API key -> https://aistudio.google.com/app/apikey
+<br> Replace <b><i>gemini.py</i></b> with your actual API key -> https://aistudio.google.com/app/apikey
 <br>python3 gemini.py -i 'time in Riga'
 <br>python3 gemini.py -i 'President of the USA'
 
