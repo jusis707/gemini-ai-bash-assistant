@@ -1,7 +1,9 @@
 # gemini-ai-bash-assistant
 <br> Gemini-AI assistant for automation via bash/python and nice prompt/output in any *nix terminal.
-Almost 'headless' installation. With <b>no-selenium</b>, <b>no-chrome-driver</b>, no by-passes or other tricky manipulations.
+<br>Almost 'headless' installation. With <b>no-selenium</b>, <b>no-chrome-driver</b>, no by-passes or other tricky manipulations.
 <br> For complex coding, Gemini offers a clear advantage in accuracy and efficiency, way more excells ChatGPT or DeepSeek.
+<br>
+<br>Python code has to help with automation, real-time event detection, making it highly effective for log monitoring and system alert generation.
 <br>  Requirments:
     Linux;
     FreeBSD;
