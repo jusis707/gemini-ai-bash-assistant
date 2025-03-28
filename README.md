@@ -17,7 +17,12 @@
 <br>python3 gemini.py -i 'President of the USA'
 
 <br>p.s. gemini LLM model named <i><b>flash-2.0</b></i> <i>lives</i> in between of October of 2023 and June of 2024 (28 of March, 2025 as per today, as true date).
-<br> Ubuntu:
+<br>
+<br>Ubuntu:
 <br>![screenshot](1.png)
+<br>
 <br> Termux (Android mobile phone - Redmi 7):
 <br>![screenshot](2.jpg)
+<br>
+<br> FreeBSD:
+<br>![screenshot](3.png)
