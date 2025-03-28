@@ -16,6 +16,7 @@
 <br>
 <br>python3 gemini.py -i 'time in Riga'
 <br>python3 gemini.py -i 'President of the USA'
+<br>
 <br> More *nix <i>way</i> for grep/automation of output monitoring eg. <i>tail -f</i>:
 <br>python3 gemini.py -i 'time in Riga' | tee -a gemini.out
 <br>python3 gemini.py -i 'President of the USA' | tee -a gemini.out
