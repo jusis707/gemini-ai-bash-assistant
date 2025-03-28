@@ -5,7 +5,6 @@ import requests
 import json
 import datetime
 
-
 def setup_gemini():
     return "YOUR-GEMINI-API-KEY"  # Replace with your actual API key -> https://aistudio.google.com/app/apikey
 
