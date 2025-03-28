@@ -3,6 +3,8 @@
 import argparse
 import requests
 import json
+import datetime
+
 
 def setup_gemini():
     return "YOUR-GEMINI-API-KEY"  # Replace with your actual API key -> https://aistudio.google.com/app/apikey
@@ -32,7 +34,8 @@ def main():
     parser = argparse.ArgumentParser(description='Chat with Gemini AI in the terminal')
     parser.add_argument('-i', '--input', type=str, help='Input prompt for Gemini AI')
     args = parser.parse_args()
-
+    now = datetime.datetime.now()
+    timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
     api_key = setup_gemini()
     conversation = ""
 
@@ -47,6 +50,7 @@ def main():
             response_text = generate_response(api_key, conversation)
             conversation += f"Assistant: {response_text}\n"
             print(f"\n{GREEN}AI Response:{RESET}\n")
+            print(f"[{timestamp}]")
             print(response_text)
         except requests.exceptions.RequestException as e:
             print(f"API request failed: {e}")
