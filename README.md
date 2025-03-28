@@ -11,7 +11,7 @@ Almost 'headless' installation. with <b>no-selenium</b>, <b>no-chrome-driver</b>
 <br>python3 gemini.py -i 'time in Riga'
 <br>python3 gemini.py -i 'President of the USA'
 
-<br>p.s. gemini model flash-2.0 lives in November of 2023 till June of 2024 (28 of March, 2025 as true date)
+<br>p.s. gemini LLM model named <i><b>flash-2.0</b></i> <i>lives</i> in between of November of 2023 and June of 2024 (28 of March, 2025 as per today, as true date).
 <br> Ubuntu:
 <br>![screenshot](1.png)
 <br> Termux (Android mobile phone - Redmi 7):
