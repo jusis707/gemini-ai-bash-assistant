@@ -1,4 +1,5 @@
 # gemini-ai-bash-assistant
+<br> Gemini-AI assistant for automation via bash/python and nice prompt/output in any *nix terminal.
 Almost 'headless' installation. with <b>no-selenium</b>, <b>no-chrome-driver</b>, no by-passes or other tricky manipulations.
 <br>  Requirments:
     Linux;
