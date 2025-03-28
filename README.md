@@ -22,6 +22,7 @@
 <br>python3 gemini.py -i 'time in Riga' | tee -a gemini.out
 <br>python3 gemini.py -i 'President of the USA' | tee -a gemini.out
 <br>python3 gemini.py -i 'meaning of init 1 in linux' | tee -a gemini.out
+<br>Uniqness in output file guaranteed by seconds of datetime appented to each AI response.
 <br>
 
 <br>p.s. gemini LLM model named <i><b>flash-2.0</b></i> <i>lives</i> in between of October of 2023 and June of 2024 (28 of March, 2025 as per today, as true date).
