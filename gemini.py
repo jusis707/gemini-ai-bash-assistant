@@ -29,9 +29,22 @@ def generate_response(api_key, conversation):
     result = response.json()
     return result['candidates'][0]['content']['parts'][0]['text']
 
+def get_post_content():
+    """Reads and returns the content of the ./post file."""
+    try:
+        with open("./post", "r") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        print("Warning: The file './post' was not found.")
+        return ""
+    except Exception as e:
+        print(f"Warning: An error occurred while reading './post': {e}")
+        return ""
+
 def main():
     parser = argparse.ArgumentParser(description='Chat with Gemini AI in the terminal')
     parser.add_argument('-i', '--input', type=str, help='Input prompt for Gemini AI')
+    parser.add_argument('-post', action='store_true', help='Append the content of the ./post file to the input')
     args = parser.parse_args()
     now = datetime.datetime.now()
     timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
@@ -44,7 +57,11 @@ def main():
     RESET = '\033[0m'
 
     if args.input:
-        conversation = f"User: {args.input}\n"
+        conversation = f"User: {args.input}"
+        if args.post:
+            post_content = get_post_content()
+            conversation += f" {post_content}"
+        conversation += "\n"
         try:
             response_text = generate_response(api_key, conversation)
             conversation += f"Assistant: {response_text}\n"
