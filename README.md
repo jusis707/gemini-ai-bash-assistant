@@ -52,7 +52,7 @@
 <br>![screenshot](4.png)
 <br>Ubuntu version with deb file installation runs with:
 <br><b>gemini -i 'time in riga'</b>
-<br> note the difference between Ubuntu direct run <i>gemini</i> and python way of<i>python3 gemini.py</i>
+<br> note the difference between Ubuntu direct run <i>gemini</i> and python way of <i>python3 gemini.py</i>
 <br>
 <br>Ubuntu:
 <br>![screenshot](1.png)
