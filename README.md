@@ -39,6 +39,12 @@
 <br>
 <br><b>gemini-monitor.sh</b> runs in background (optionally, might use '&' or 'nohup') to keep <i>backgrounded</i> and monitors Gemini AI responses - if any code responded, then the code executes and actions will be appended to logfile.
 <br>
+<br>Reminder:
+<br>  If:
+<br>  <b>-post</b> argument added;
+<br>  <b>bash gemini-monitor.sh</b> started, then:
+<br>  <b>Gemini AI responded <i>code</i> WILL execute</b>
+<br>
 <br>Ubuntu:
 <br>![screenshot](1.png)
 <br>
