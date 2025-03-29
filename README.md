@@ -35,6 +35,8 @@
 <br>
 <br><b>-post</b> argument passes universal text, of content of file 'post' as appendix for each user prompt to Gemini AI.
 <br>
+<br><b>gemini-monitor.sh</b> runs in background (optionally, might use '&' or nohup) to keep <i>backgrounded</i> and monitors Gemini AI responses - if any code responded, then the code executes and actions will be appended to logfile
+<br>
 <br>Ubuntu:
 <br>![screenshot](1.png)
 <br>
