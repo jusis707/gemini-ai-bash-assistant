@@ -1,6 +1,7 @@
 #!/bin/bash
 # Gemini-AI assistant for automation via bash/python. Credits: https://www.linkedin.com/in/juris-embergs-054b8326/
 # Juris Embergs embergs.usa@gmail.com
+
 # Configuration
 MONITORED_FILE="./gemini.out"
 LOG_FILE="./code_execution.log"
