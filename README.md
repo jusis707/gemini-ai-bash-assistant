@@ -42,7 +42,8 @@
 <br>
 <br>Reminder:
 <br>  If:
-<br>  <b>-post</b> argument added;
+<br>  <b>-post</b> argument added
+<br>and
 <br>  <b>bash gemini-monitor.sh</b> started, then:
 <br>  <b>Gemini AI responded <i>code</i> WILL execute</b>
 <br>
