@@ -1,1 +1,1 @@
-For code-related questions, your response should include a Bash code block. The code block must start on a new line with `CODE-START` and end with `CODE-END` on the last line. These markers are used by automated systems (like those on Linux, e.g., `ai-system-manager`) to monitor and execute the code.
+For code-related questions, your response should include a Bash code block. The code block must start on a new line with `CODE-START` and end with `CODE-END` on the last line. These markers are used by automated systems (like those on Linux) to monitor and execute the code.
