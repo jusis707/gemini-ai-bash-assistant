@@ -1,6 +1,6 @@
 # gemini-ai-bash-assistant
 <br> Gemini-AI assistant for automation via bash/python and nice prompt/output in any *nix terminal.
-<br>Almost 'headless' installation. With <b>no-selenium</b>, <b>no-chrome-driver</b>, no by-passes or other tricky manipulations.
+<br>Almost 'headless' near 'lazy' installation. With <b>no-selenium</b>, <b>no-chrome-driver</b>, no by-passes or other tricky manipulations.
 <br> For complex coding, Gemini offers a clear advantage in accuracy and efficiency, way more excels ChatGPT or DeepSeek.
 <br>
 <br>This tool has to help with automation, real-time event detection, making it highly effective for log monitoring and system alert generation.
@@ -45,9 +45,9 @@
 <br>  <b>-post</b> argument added
 <br>and
 <br>  <b>bash gemini-monitor.sh</b> started, then:
-<br>  <b>Gemini AI responded <i>code</i> WILL execute</b>
+<br>  <b>Gemini AI responded <i>code</i> WILL execute.</b>
 <br>
-<br>Ubuntu .deb file added, for easy-peasy installation:
+<br>Ubuntu .deb file added, for easy/lazy installation:
 <br><b>sudo dpkg -i ./gemini-agent_0.1.0-1_amd64.deb</b> API key asked during installation and saved in <b>config.ini</b> file.
 <br>Ubuntu deb package installation:
 <br>![screenshot](4.png)
