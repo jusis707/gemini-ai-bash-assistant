@@ -50,7 +50,7 @@
 <br>Ubuntu .deb file added, for easy/lazy installation:
 <br><b>sudo dpkg -i ./gemini-agent_0.1.0-1_amd64.deb</b>
 <br>API key asked during installation and saved in <b>config.ini</b> file.
-<br>Ubuntu package unninstallation perfomed by:
+<br>Ubuntu package uninstallation perfomed by:
 <br><b>sudo dpkg -r gemini-agent</b>
 <br>Ubuntu deb package installation:
 <br>![screenshot](4.png)
