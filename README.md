@@ -31,6 +31,7 @@
 <br>p.s. gemini LLM model named <i><b>flash-2.0</b></i> <i>lives</i> in between of October of 2023 and June of 2024 (28 of March, 2025 as per today, as true date).
 <br>
 <br><b>Automation:</b>
+<br><i> - from terminal:</i>
 <br>bash gemini-monitor.sh
 <br><i> - from another terminal open:</i>
 <br>python3 gemini.py -post -i 'bash code, create a file, 6 digit time in Riga as filename, file in current folder' | tee -a gemini.out
