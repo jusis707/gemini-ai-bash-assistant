@@ -30,7 +30,7 @@
 <br>
 <br><b>Automation:</b>
 <br>bash gemini-monitor.sh
-<br>from another termnal open
+<br><i> - from another terminal open:</i>
 <br>python3 gemini.py -post -i 'bash code, create a file, 6 digit time in Riga as filename, file in current folder' | tee -a gemini.out
 <br>
 <br><b>-post</b> argument passes universal text, of content of file 'post' as appendix for each user prompt to Gemini AI.
