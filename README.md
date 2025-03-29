@@ -46,6 +46,11 @@
 <br>  <b>bash gemini-monitor.sh</b> started, then:
 <br>  <b>Gemini AI responded <i>code</i> WILL execute</b>
 <br>
+<br>Ubuntu .deb file added, for easy-peasy installation:
+<br><b>sudo dpkg -i ./gemini-agent_0.1.0-1_amd64.deb</b> API key asked during installation and saved in <b>config.ini</b> file.
+<br>Ubuntu deb package installation:
+<br>![screenshot](4.png)
+<br>
 <br>Ubuntu:
 <br>![screenshot](1.png)
 <br>
