@@ -14,7 +14,7 @@
 <br>Usage:
 <br>git clone https://github.com/jusis707/gemini-ai-bash-assistant
 <br>cd gemini-ai-bash-assistant
-<br> Replace in <b><i>gemini.py</i></b> with your actual API key -> https://aistudio.google.com/app/apikey
+<br> Replace inline <b><i>gemini.py</i></b> with your actual API key -> https://aistudio.google.com/app/apikey
 <br>
 <br>python3 gemini.py -i 'time in Riga'
 <br>python3 gemini.py -i 'President of the USA'
