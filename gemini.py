@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Gemini-AI assistant for automation via bash/python. Credits: https://www.linkedin.com/in/juris-embergs-054b8326/
 # Juris Embergs embergs.usa@gmail.com
 import argparse
