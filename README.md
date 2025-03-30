@@ -45,7 +45,7 @@
 <br>  <b>-post</b> argument added
 <br>and
 <br>  <b>bash gemini-monitor.sh</b> started, then:
-<br>  <b>Gemini AI responded <i>code</i> WILL execute.</b>
+<br>  <b>Gemini AI responded <i>code</i> WILL executes locally against your environment.</b>
 <br>
 <br>Added Ubuntu .deb package for x86_64/amd64, for easy/lazy installation:
 <br><b>sudo dpkg -i ./gemini-agent_0.1.0-1_amd64.deb</b>
