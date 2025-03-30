@@ -58,7 +58,7 @@
 <br><b>gemini -i 'time in riga'</b>
 <br> note the difference between Ubuntu direct run <i>gemini</i> and python way of <i>python3 gemini.py</i>
 <br>
-<br>Ubuntu:
+<br>Ubuntu (<i>python3</i> way:
 <br>![screenshot](1.png)
 <br>
 <br> Termux (Android mobile phone - Redmi 7):
