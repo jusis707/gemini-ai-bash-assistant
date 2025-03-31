@@ -47,7 +47,7 @@
 <br>  <b>bash gemini-monitor.sh</b> started, then:
 <br>  <b>Gemini AI responded <i>code</i> WILL executes locally against your environment.</b>
 <br>
-<br>Added Ubuntu .deb package for x86_64/amd64, for easy/lazy installation:
+<br>Added Ubuntu .deb package for x86_64/amd64, for easy/lazy installation, <b>at the stage of developing, after deb installation, use folder of the content where this git hub repo cloned</b>
 <br><b>sudo dpkg -i ./gemini-agent_0.1.0-1_amd64.deb</b>
 <br>API key asked during installation and saved in <b>config.ini</b> file.
 <br>Ubuntu package uninstallation perfomed by:
