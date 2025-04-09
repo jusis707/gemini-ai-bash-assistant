@@ -35,7 +35,7 @@ execute_code() {
     log_message "$log_prefix output:\n$output"
   fi
 
-  rm -f "$code_file"
+  # rm -f "$code_file"
   echo "$output"
 }
 
