@@ -27,10 +27,11 @@ execute_code() {
 
   if [ $exit_code -eq 0 ]; then
     log_message "$log_prefix finished successfully."
+    log_message "$log_prefix\n$code_block\n --- CODE $log_prefix EXECUTED SUCCESSFULY ---"
   else
     log_message "$log_prefix failed with exit code $exit_code."
+    log_message "$log_prefix\n$code_block\n --- CODE $log_prefix FAILED ---"
   fi
-
   if [ -n "$output" ]; then
     log_message "$log_prefix output:\n$output"
   fi
