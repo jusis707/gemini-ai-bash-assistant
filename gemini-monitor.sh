@@ -54,9 +54,9 @@ tail -n 0 -f "$MONITORED_FILE" | while IFS= read -r line; do
         execution_output=$(execute_code "$code_file")
 
         # Execute the Python script with the output of the previous execution
-        python_command="python3 gemini.py -i '${execution_output//\'/\'}' | tee -a $MONITORED_FILE"
-        log_message "Executing Python command: $python_command"
-        eval "$python_command"
+        # python_command="python3 gemini.py -i '${execution_output//\'/\'}' | tee -a $MONITORED_FILE"
+        # log_message "Executing Python command: $python_command"
+        # eval "$python_command"
         break
       else
         code_block="$code_block"$'\n'"$code_line"
