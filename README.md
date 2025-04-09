@@ -5,12 +5,11 @@
 <br>
 <br>This tool has to help with automation, real-time event detection, making it highly effective for log monitoring and system alert generation.
 <br>  Requirments:
-    Linux;
-    FreeBSD;
-    Termux;
+    Linux or 
+    FreeBSD or
+    Termux and
     Python
-    and
-    a will to install some python modules.
+    (will to install some python modules).
 <br>Usage:
 <br>git clone https://github.com/jusis707/gemini-ai-bash-assistant
 <br>cd gemini-ai-bash-assistant
@@ -32,6 +31,7 @@
 <br>
 <br><b>Automation:</b>
 <br><i> - from terminal (runs in <b>background</b>), before any promt performed:</i>
+<br>chmod +x gemini-monitor.sh
 <br>bash gemini-monitor.sh
 <br><i> - from another terminal open:</i>
 <br>python3 gemini.py -post -i 'bash code, create a file, 6 digit time in Riga as filename, file in current folder' | tee -a gemini.out
@@ -45,8 +45,15 @@
 <br>  <b>-post</b> argument added
 <br>and
 <br>  <b>bash gemini-monitor.sh</b> started, then:
-<br>  <b>Gemini AI responded <i>code</i> WILL executes locally against your environment.</b>
+<br>  <b>Gemini AI responded <i>code</i> WILL executes locally against your local environment.</b>
 <br>
+<b>Automation example:</b>
+<br>nohup bash gemini-monitor.sh &
+<br>![screenshot](5.png)
+<br>python3 gemini.py -post -i 'bash code, create a folder, named of deepest lake of Latvia, in current folder' | tee -a gemini.out
+<br>![screenshot](6.png)
+<br>cat code_execution.log
+<br>![screenshot](7.png)
 <br>Added Ubuntu .deb package for x86_64/amd64, for easy/lazy installation, <b>at the stage of developing, after deb installation, use folder of the content where this git hub repo cloned</b>.
 <br><b>sudo dpkg -i ./gemini-agent_0.1.0-1_amd64.deb</b>
 <br>API key asked during installation and saved in <b>config.ini</b> file.
