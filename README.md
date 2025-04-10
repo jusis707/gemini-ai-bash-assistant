@@ -47,7 +47,9 @@
 <br>  <b>bash gemini-monitor.sh</b> started, then:
 <br>  <b>Gemini AI responded <i>code</i> WILL executes locally against your local environment.</b>
 <br>
+<br>
 <b>Automation example:</b>
+<br>
 <br>nohup bash gemini-monitor.sh &
 <br>![screenshot](5.png)
 <br>python3 gemini.py -post -i 'bash code, create a folder, named of deepest lake in Latvia, in the current folder' | tee -a gemini.out
