@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 # Gemini-AI assistant for automation via bash/python. Credits: https://www.linkedin.com/in/juris-embergs-054b8326/
 # Juris Embergs embergs.usa@gmail.com
 
