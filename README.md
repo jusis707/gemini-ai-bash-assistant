@@ -45,36 +45,48 @@
 <br>  <b>-post</b> argument added
 <br>and
 <br>  <b>bash gemini-monitor.sh</b> started, then:
-<br>  <b>Gemini AI responded <i>code</i> WILL executes locally against your local environment.</b>
+<br>  <b>Gemini AI responded <i>code</i> <b>will</b> executes locally against your local environment.</b>
 <br>
 <br>
 <b>Automation example:</b>
 <br>
 <br>nohup bash gemini-monitor.sh &
 <br>![screenshot](5.png)
+<br>
 <br>python3 gemini.py -post -i 'bash code, create a folder, named of deepest lake in Latvia, in the current folder' | tee -a gemini.out
 <br>![screenshot](6.png)
+<br>
 <br>cat code_execution.log
 <br>![screenshot](7.png)
+<br>
 <br>ls
 <br>![screenshot](8.png)
 <br>
-<br>Added Ubuntu .deb package for x86_64/amd64, for easy/lazy installation, <b>at the stage of developing, after deb installation, use folder of the content where this git hub repo cloned</b>.
+<br>Added Ubuntu .deb package for x86_64/amd64, for easy/lazy installation, <b>at the stage of developing, after deb installation, use folder of the content where this <i>github</i> repo cloned</b>.
+<br>
 <br><b>sudo dpkg -i ./gemini-agent_0.1.0-1_amd64.deb</b>
-<br>API key asked during installation and saved in <b>config.ini</b> file.
+<br>
+<br>API key asked during installation saved in <b>/etc/gemini-agent/config.ini</b> file.
 <br>Ubuntu package uninstallation perfomed by:
+<br>
 <br><b>sudo dpkg -r gemini-agent</b>
 <br>Ubuntu deb package installation:
+<br>
 <br>![screenshot](4.png)
 <br>Ubuntu version with deb file installation runs with:
+<br>
 <br><b>gemini -i 'time in riga'</b>
 <br> note the difference between direct run of <i>Gemini</i> and python way of <i>python3 gemini.py</i>
 <br>
 <br>Ubuntu (<i>python3</i>) way:
+<br>
 <br>![screenshot](1.png)
 <br>
 <br> Termux (Android mobile phone - Redmi 7):
+<br>
 <br>![screenshot](2.jpg)
 <br>
 <br> FreeBSD:
+<br>
 <br>![screenshot](3.png)
+<br>
