@@ -27,7 +27,7 @@
 <br>Uniqness in output file guaranteed by timestamp in seconds of datetime, appended to each AI response.
 <br>
 
-<br>p.s. gemini LLM model named <i><b>flash-2.0</b></i> <i>lives</i> in between of October of 2023 and June of 2024 (28 of March, 2025 as per today, as true date).
+<br>p.s. Gemini AI LLM model named <i><b>flash-2.0</b></i> <i>lives</i> in between of October of 2023 and June of 2024 (28 of March, 2025 as per today, as true date).
 <br>
 <br><b>Automation:</b>
 <br><i> - from terminal (runs in <b>background</b>), before any promt performed:</i>
@@ -68,7 +68,7 @@
 <br>![screenshot](4.png)
 <br>Ubuntu version with deb file installation runs with:
 <br><b>gemini -i 'time in riga'</b>
-<br> note the difference between Ubuntu direct run <i>gemini</i> and python way of <i>python3 gemini.py</i>
+<br> note the difference between direct run of <i>Gemini</i> and python way of <i>python3 gemini.py</i>
 <br>
 <br>Ubuntu (<i>python3</i>) way:
 <br>![screenshot](1.png)
