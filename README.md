@@ -50,7 +50,7 @@
 <b>Automation example:</b>
 <br>nohup bash gemini-monitor.sh &
 <br>![screenshot](5.png)
-<br>python3 gemini.py -post -i 'bash code, create a folder, named of deepest lake of Latvia, in current folder' | tee -a gemini.out
+<br>python3 gemini.py -post -i 'bash code, create a folder, named of deepest lake in Latvia, in the current folder' | tee -a gemini.out
 <br>![screenshot](6.png)
 <br>cat code_execution.log
 <br>![screenshot](7.png)
