@@ -32,7 +32,7 @@
 <br><b>Automation:</b>
 <br><i> - from terminal (runs in <b>background</b>), before any promt performed:</i>
 <br>chmod +x gemini-monitor.sh
-<br>bash gemini-monitor.sh
+<br>nohup bash gemini-monitor.sh &
 <br><i> - from another terminal open:</i>
 <br>python3 gemini.py -post -i 'bash code, create a file, 6 digit time in Riga as filename, file in current folder' | tee -a gemini.out
 <br>
