@@ -10,7 +10,7 @@ def setup_gemini():
     return "YOUR-GEMINI-API-KEY"  # Replace with your actual API key -> https://aistudio.google.com/app/apikey
 
 def generate_response(api_key, conversation):
-    url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent"
     headers = {
         'Content-Type': 'application/json',
         'x-goog-api-key': api_key
